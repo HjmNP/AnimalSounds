@@ -14,6 +14,10 @@
 		45B8C611208A0ABF000A6F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B8C60F208A0ABF000A6F24 /* LaunchScreen.storyboard */; };
 		45B8C61C208A0ABF000A6F24 /* AnimalSoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8C61B208A0ABF000A6F24 /* AnimalSoundsTests.swift */; };
 		45B8C627208A0ABF000A6F24 /* AnimalSoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8C626208A0ABF000A6F24 /* AnimalSoundsUITests.swift */; };
+		45B8C63A208A1D63000A6F24 /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 45B8C636208A1D62000A6F24 /* woof.m4a */; };
+		45B8C63B208A1D63000A6F24 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 45B8C637208A1D62000A6F24 /* meow.m4a */; };
+		45B8C63C208A1D63000A6F24 /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 45B8C638208A1D62000A6F24 /* moo.m4a */; };
+		45B8C63D208A1D63000A6F24 /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8C639208A1D63000A6F24 /* SimpleSound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		45B8C622208A0ABF000A6F24 /* AnimalSoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalSoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B8C626208A0ABF000A6F24 /* AnimalSoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSoundsUITests.swift; sourceTree = "<group>"; };
 		45B8C628208A0ABF000A6F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B8C636208A1D62000A6F24 /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
+		45B8C637208A1D62000A6F24 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		45B8C638208A1D62000A6F24 /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
+		45B8C639208A1D63000A6F24 /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				45B8C60D208A0ABF000A6F24 /* Assets.xcassets */,
 				45B8C60F208A0ABF000A6F24 /* LaunchScreen.storyboard */,
 				45B8C612208A0ABF000A6F24 /* Info.plist */,
+				45B8C637208A1D62000A6F24 /* meow.m4a */,
+				45B8C638208A1D62000A6F24 /* moo.m4a */,
+				45B8C639208A1D63000A6F24 /* SimpleSound.swift */,
+				45B8C636208A1D62000A6F24 /* woof.m4a */,
 			);
 			path = AnimalSounds;
 			sourceTree = "<group>";
@@ -229,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B8C63C208A1D63000A6F24 /* moo.m4a in Resources */,
 				45B8C611208A0ABF000A6F24 /* LaunchScreen.storyboard in Resources */,
 				45B8C60E208A0ABF000A6F24 /* Assets.xcassets in Resources */,
 				45B8C60C208A0ABE000A6F24 /* Main.storyboard in Resources */,
+				45B8C63B208A1D63000A6F24 /* meow.m4a in Resources */,
+				45B8C63A208A1D63000A6F24 /* woof.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B8C63D208A1D63000A6F24 /* SimpleSound.swift in Sources */,
 				45B8C609208A0ABE000A6F24 /* ViewController.swift in Sources */,
 				45B8C607208A0ABE000A6F24 /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHTY8G44B7;
 				INFOPLIST_FILE = AnimalSounds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHTY8G44B7;
 				INFOPLIST_FILE = AnimalSounds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
